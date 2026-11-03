@@ -148,7 +148,7 @@ export function Contacto() {
 
             <Reveal delay={0.1}>
               <div className="mt-10 space-y-4">
-                <div className="flex items-start gap-4 rounded-xl border border-white/10 bg-white/[0.04] p-5">
+                <div className="flex items-start gap-4 rounded-xl border border-white/10 bg-white/4 p-5">
                   <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-gold/15">
                     <Phone className="h-5 w-5 text-gold" aria-hidden="true" />
                   </span>
@@ -170,7 +170,7 @@ export function Contacto() {
                   </div>
                 </div>
 
-                <div className="flex items-start gap-4 rounded-xl border border-white/10 bg-white/[0.04] p-5">
+                <div className="flex items-start gap-4 rounded-xl border border-white/10 bg-white/4 p-5">
                   <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-gold/15">
                     <Mail className="h-5 w-5 text-gold" aria-hidden="true" />
                   </span>
@@ -192,7 +192,7 @@ export function Contacto() {
                   </div>
                 </div>
 
-                <div className="flex items-start gap-4 rounded-xl border border-white/10 bg-white/[0.04] p-5">
+                <div className="flex items-start gap-4 rounded-xl border border-white/10 bg-white/4 p-5">
                   <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-gold/15">
                     <MapPin className="h-5 w-5 text-gold" aria-hidden="true" />
                   </span>
@@ -209,7 +209,7 @@ export function Contacto() {
                   </div>
                 </div>
 
-                <div className="flex items-start gap-4 rounded-xl border border-white/10 bg-white/[0.04] p-5">
+                <div className="flex items-start gap-4 rounded-xl border border-white/10 bg-white/4 p-5">
                   <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-gold/15">
                     <Globe className="h-5 w-5 text-gold" aria-hidden="true" />
                   </span>
@@ -245,7 +245,7 @@ export function Contacto() {
           <Reveal delay={0.15}>
             <div className="rounded-2xl bg-white p-6 shadow-2xl sm:p-9">
               {status === "success" ? (
-                <div className="flex min-h-[420px] flex-col items-center justify-center text-center" role="status">
+                <div className="flex min-h-105 flex-col items-center justify-center text-center" role="status">
                   <span className="flex h-16 w-16 items-center justify-center rounded-full bg-gold/15">
                     <CheckCircle2 className="h-9 w-9 text-gold-dark" aria-hidden="true" />
                   </span>
